@@ -23,7 +23,7 @@ export default function Auth() {
       // setLoggedIn(true);
       setUserData(userSession.loadUserData());
     }
-    getNetworkPaydii()
+    getNetworkDeop()
   }, []);
 
   const handleLogIn = async () => {
@@ -34,8 +34,8 @@ export default function Auth() {
     });
   }
 
-  const getNetworkPaydii = () => {
-    let network = localStorage.getItem('NETWORK_PAYDII')
+  const getNetworkDeop = () => {
+    let network = localStorage.getItem('NETWORK_CONTRACT')
     if(network == 'mainnet') {
       setNetwork('mainnet')
     } 
@@ -47,7 +47,7 @@ export default function Auth() {
   }
 
   const handleChangeNetwork = (network:string) => {
-    localStorage.setItem('NETWORK_PAYDII', network)
+    localStorage.setItem('NETWORK_CONTRACT', network)
 
     Swal.fire({
       title: '<strong>Switch network</u></strong>',

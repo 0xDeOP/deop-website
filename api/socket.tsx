@@ -8,7 +8,7 @@ import { contractOwnerAddress } from "../network-config";
 let url = "https://stacks-node-api.testnet.stacks.co/"
 
 if(typeof window !== 'undefined') {
-  if(localStorage.getItem('NETWORK_PAYDII') == 'mainnet'){
+  if(localStorage.getItem('NETWORK_CONTRACT') == 'mainnet'){
     url = "https://stacks-node-api.mainnet.stacks.co/"
   }
 }
