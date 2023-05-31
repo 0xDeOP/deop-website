@@ -1,9 +1,11 @@
 /** @type {import('next').NextConfig} */
 const webpack = require('webpack');
-module.exports = {
+const nextConfig = {
     experimental: {
         runtime: 'experimental-edge',
     },
+    reactStrictMode: true,
+    swcMinify: true,
     webpack: (config, {buildId, dev, isServer, defaultLoaders, webpack}) => {
         config.plugins.push(new webpack.ProvidePlugin({
             $: 'jquery',
@@ -12,7 +14,6 @@ module.exports = {
         }))
         return config;
     },
-    reactStrictMode: true,
     eslint: {
         ignoreDuringBuilds: true,
     },
@@ -20,3 +21,4 @@ module.exports = {
         ignoreBuildErrors: true,
     }
 }
+module.exports = nextConfig
