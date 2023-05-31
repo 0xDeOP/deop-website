@@ -1,7 +1,3 @@
-export const config = {
-    runtime: 'experimental-edge',
-}
-
 const fsp = require('fs').promises
 const fs = require('fs');
 import path from 'path'
