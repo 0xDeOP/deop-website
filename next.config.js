@@ -1,23 +1,4 @@
 /** @type {import('next').NextConfig} */
-// const nextConfig = {experimental: {runtime: 'edge'}};
-// const webpack = require('webpack');
-// module.exports = {
-//     webpack: (config, {buildId, dev, isServer, defaultLoaders, webpack}) => {
-//         config.plugins.push(new webpack.ProvidePlugin({
-//             $: 'jquery',
-//             jQuery: 'jquery',
-//             'window.jQuery': 'jquery'
-//         }))
-//         return config;
-//     },
-//     reactStrictMode: true,
-//     eslint: {
-//         ignoreDuringBuilds: true,
-//     },
-//     typescript: {
-//         ignoreBuildErrors: true,
-//     }
-// }
 
 const nextConfig = {
     reactStrictMode: true,
@@ -54,4 +35,4 @@ const nextConfig = {
     }
 };
 
-module.exports = nextConfig;
+module.exports = nextConfig
