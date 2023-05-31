@@ -1,4 +1,5 @@
 /** @type {import('next').NextConfig} */
+const nextConfig = {experimental: {runtime: 'edge'}};
 const webpack = require('webpack');
 module.exports = {
     webpack: (config, {buildId, dev, isServer, defaultLoaders, webpack}) => {
