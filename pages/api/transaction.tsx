@@ -1,9 +1,13 @@
+export const config = {
+    runtime: 'experimental-edge',
+}
+
 const fsp = require('fs').promises
 const fs = require('fs');
 import path from 'path'
 
 let pathFile = path.join(process.cwd(), 'data/transaction.json')
-export default async function (req, res) {
+export default async function (req: any, res: any) {
     if (req.method === 'POST') {
         try {
             const file_data = await fsp.readFile(pathFile)
