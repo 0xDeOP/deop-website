@@ -28,17 +28,27 @@ export default function HeaderIndex() {
                             </li>
 
                             <li className="nav-item menu-item-has-children">
-                                <a className="nav-link text-white" href="#">Explore</a>
+                                <a className="nav-link text-white" href="https://unisat.io/brc20/DeOP" target={"blank"}>
+                                    DeOP Info
+                                </a>
                             </li>
                             <li className="nav-item menu-item-has-children">
-                                <a className="nav-link text-white" href="#">Blog</a>
+                                <a className="nav-link text-white" href="https://unisat.io/market?tick=DeOP"
+                                   target={"blank"}>
+                                    Trade DeOP
+                                </a>
                             </li>
 
                             <li className="nav-item menu-item-has-children ">
-                                <a className="nav-link text-white" href="#">Pages</a>
+                                <a className="nav-link text-white" href="https://twitter.com/DeOP_BRC20"
+                                   target={"blank"}>
+                                    Twitter
+                                </a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link text-white" href="contact.html">Contact</a>
+                                <a className="nav-link text-white" href="https://t.me/deop_brc20" target={"blank"}>
+                                    Telegram
+                                </a>
                             </li>
                         </ul>
                         <a href="#"
@@ -52,7 +62,7 @@ export default function HeaderIndex() {
                     <a href="#"
                        className="btn btn-md header-btn text-gray-800 rajdhani-700 rounded-6 bg-transparent border-dark border-2 px-4 font-sm text-uppercase dark-text"
                        data-bs-toggle="modal" data-bs-target="#connetwallet">
-                        Try App
+                        Try App (soon)
                     </a>
 
                     {/*<a href="#" data-switch-theme className="ms-2 header-btn btn-toggle-dark btn btn-icon btn-round"><i*/}

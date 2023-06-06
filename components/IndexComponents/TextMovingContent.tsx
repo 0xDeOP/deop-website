@@ -20,45 +20,37 @@ export default function TextMovingContent() {
                 dots={false}
             >
                 <div className="item d-flex gap-2">
-                    <h1 className="text-gray-900 h2 lh-32 rajdhani-700 m-0 text-uppercase">Service Development</h1>
+                    <h1 className="text-gray-900 h2 lh-32 rajdhani-700 m-0 text-uppercase">
+                        #Deflationary Protocols
+                    </h1>
                     <img src="images/icon-8.png" className="w-20 mt-1 h-20" alt="icon"/>
                 </div>
 
                 <div className="item d-flex gap-2">
-                    <h1 className="text-gray-900 h2 lh-32 rajdhani-700 m-0 text-uppercase">Artists Marketplace</h1>
+                    <h1 className="text-gray-900 h2 lh-32 rajdhani-700 m-0 text-uppercase">
+                        #BRC20 Marketplace
+                    </h1>
                     <img src="images/icon-8.png" className="w-20 mt-1 h-20" alt="icon"/>
                 </div>
 
-                <div className="item d-flex gap-2"><h1
-                    className="text-gray-900 h2 lh-32 rajdhani-700 m-0 text-uppercase">Photoghraphy Trend</h1><img
-                    src="images/icon-8.png" className="w-20 mt-1 h-20" alt="icon"/></div>
-                <div className="item d-flex gap-2"><h1
-                    className="text-gray-900 h2 lh-32 rajdhani-700 m-0 text-uppercase">Rankings Collection</h1><img
-                    src="images/icon-8.png" className="w-20 mt-1 h-20" alt="icon"/></div>
-                <div className="item d-flex gap-2"><h1
-                    className="text-gray-900 h2 lh-32 rajdhani-700 m-0 text-uppercase">Discusson Platform </h1><img
-                    src="images/icon-8.png" className="w-20 mt-1 h-20" alt="icon"/></div>
-                <div className="item d-flex gap-2"><h1
-                    className="text-gray-900 h2 lh-32 rajdhani-700 m-0 text-uppercase">Developer Platform</h1><img
-                    src="images/icon-8.png" className="w-20 mt-1 h-20" alt="icon"/></div>
-                <div className="item d-flex gap-2"><h1
-                    className="text-gray-900 h2 lh-32 rajdhani-700 m-0 text-uppercase">Service Development</h1><img
-                    src="images/icon-8.png" className="w-20 mt-1 h-20" alt="icon"/></div>
-                <div className="item d-flex gap-2"><h1
-                    className="text-gray-900 h2 lh-32 rajdhani-700 m-0 text-uppercase">Artists Marketplace</h1><img
-                    src="images/icon-8.png" className="w-20 mt-1 h-20" alt="icon"/></div>
-                <div className="item d-flex gap-2"><h1
-                    className="text-gray-900 h2 lh-32 rajdhani-700 m-0 text-uppercase">Photoghraphy Trend</h1><img
-                    src="images/icon-8.png" className="w-20 mt-1 h-20" alt="icon"/></div>
-                <div className="item d-flex gap-2"><h1
-                    className="text-gray-900 h2 lh-32 rajdhani-700 m-0 text-uppercase">Rankings Collection</h1><img
-                    src="images/icon-8.png" className="w-20 mt-1 h-20" alt="icon"/></div>
-                <div className="item d-flex gap-2"><h1
-                    className="text-gray-900 h2 lh-32 rajdhani-700 m-0 text-uppercase">Discusson Platform </h1><img
-                    src="images/icon-8.png" className="w-20 mt-1 h-20" alt="icon"/></div>
-                <div className="item d-flex gap-2"><h1
-                    className="text-gray-900 h2 lh-32 rajdhani-700 m-0 text-uppercase">Developer Platform</h1><img
-                    src="images/icon-8.png" className="w-20 mt-1 h-20" alt="icon"/></div>
+                <div className="item d-flex gap-2">
+                    <h1 className="text-gray-900 h2 lh-32 rajdhani-700 m-0 text-uppercase">
+                        #DeOP Wallet
+                    </h1>
+                    <img src="images/icon-8.png" className="w-20 mt-1 h-20" alt="icon"/>
+                </div>
+                <div className="item d-flex gap-2">
+                    <h1 className="text-gray-900 h2 lh-32 rajdhani-700 m-0 text-uppercase">
+                        #BURN TOKEN
+                    </h1>
+                    <img src="images/icon-8.png" className="w-20 mt-1 h-20" alt="icon"/>
+                </div>
+                <div className="item d-flex gap-2">
+                    <h1 className="text-gray-900 h2 lh-32 rajdhani-700 m-0 text-uppercase">
+                        #DeOP Token
+                    </h1>
+                    <img src="images/icon-8.png" className="w-20 mt-1 h-20" alt="icon"/>
+                </div>
             </OwlCarousel>
         </div>
 

@@ -25,8 +25,21 @@
 @import "./../vendor/icon/bootstrap-icons.css";
 
 .banner-wrapper {
-    padding-top: 25vh;
+    padding-top: 20vh;
 }
+
+.banner-wrapper .disclaimer-alert {
+    color: white;
+    font-size: 1.7rem;
+    line-height: 1.2;
+    text-align: center;
+    background-color: #fd1414;
+    width: 70vw;
+    margin: 50px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
 
 .img-icon-banner {
     border-radius: 50%;

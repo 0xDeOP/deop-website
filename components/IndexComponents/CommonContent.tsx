@@ -15,32 +15,28 @@ export default function CommonContent() {
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-xl-9 col-lg-12 text-center">
-                        <h3 className="display1-size text-gray-900 rajdhani-600 mb-0">The project that inspired the</h3>
-                        <div className="d-flex flex-row gap-4 justify-content-center">
-                            <h3 className="display1-size text-gray-900 rajdhani-600 mb-0">modern CryptoArt</h3>
-                            <OwlCarousel
-                                className="owl-theme ovh nft-bg-fade w-200"
-                                loop
-                                items={1}
-                                margin={10}
-                                autoplay={true}
-                                dots={false}
-                                autoplaySpeed={1000}
-                                animateOut={'fadeOut'}
-                            >
-                                <div className="item d-flex gap-2">
-                                    <Image src={nft_bg1} alt={"nft"} className={"h-76 w-250"}/>
-                                </div>
-                                <div className="item d-flex gap-2">
-                                    <Image src={nft_bg2} alt={"nft"} className={"h-76 w-250"}/>
-                                </div>
-                            </OwlCarousel>
-                        </div>
-                        <h3 className="display1-size text-gray-900 rajdhani-600">CryptoPunks are one of the earliest and
-                            most iconic examples of "Non-Fungible Tokens” minted on <span
-                                className="bg-image-contain bg-no-repeat bg-image-center"
-                                style={{backgroundImage: 'url(text-bg-1.png)'}}>Ethereum,</span> and were the
-                            inspiration</h3>
+                        <h3 className="display1-size text-gray-900 rajdhani-600 mb-0">
+                            The DeOP team is dedicated to maximizing the utility of BRC-20 tokens within the Ordinals
+                            ecosystem. Our efforts will focus on providing a comprehensive range of utilities that align
+                            with the principles of Bitcoin and the future of DeFi on the
+
+                        </h3>
+
+                        <h3 className="display1-size text-gray-900 rajdhani-600">
+                            <span className="bg-image-contain bg-no-repeat bg-image-center"
+                                  style={{backgroundImage: 'url(text-bg-1.png)'}}>Bitcoin</span> network
+                        </h3>
+
+                        <h3 className="display1-size text-gray-900 rajdhani-600 mb-0">
+                            Introducing deflationary tokens stands out as a highly innovative mechanism aimed at
+                            combating inflation and fostering sustainable economic growth. We firmly believe that such
+                            initiatives will contribute to the overall advancement of the
+                        </h3>
+
+                        <h3 className="display1-size text-gray-900 rajdhani-600">
+                            <span className="bg-image-contain bg-no-repeat bg-image-center"
+                                  style={{backgroundImage: 'url(text-bg-1.png)'}}> BRC-20 </span> ecosystem
+                        </h3>
                     </div>
                 </div>
             </div>

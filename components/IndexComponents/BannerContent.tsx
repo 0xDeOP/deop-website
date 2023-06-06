@@ -12,7 +12,7 @@ import nft_bg2 from '../../styles/images/nft-bg-2.png'
 
 export default function BannerContent() {
     return (
-        <div className="banner-wrapper  pb-250 bg-darkyellow dark-bgimage2 bg-image-center bg-no-repeat">
+        <div className="banner-wrapper  pb-100 bg-darkyellow dark-bgimage2 bg-image-center bg-no-repeat">
             <div className="container py-lg-5">
                 <div className="row justify-content-center">
                     <div className="col-12 mb-3">
@@ -61,9 +61,6 @@ export default function BannerContent() {
                                 <img src="images/ordinals-logo.png" alt="avater" className="img-icon-banner w-100"/>
                             </figure>
                             <figure className="w-60 mb-0 ms-n4">
-                                <img src="images/unisat-logo.png" alt="avater" className="img-icon-banner w-100"/>
-                            </figure>
-                            <figure className="w-60 mb-0 ms-n4">
                                 <img src="images/hiro-logo.png" alt="avater" className="img-icon-banner w-100"/>
                             </figure>
                         </div>
@@ -74,9 +71,10 @@ export default function BannerContent() {
 
                     <div className="col-12 d-md-none d-block md-mt-3">
                         <p className="font-md dark-text lh-32 text-gray-900 rajdhani-600 mb-0">
-                            Eros donec ac odio
-                            tempor
-                            orci dapibus ultrices in iaculis. Orci phasellus egestas tellus rutrum tellus.
+                            ☉ Deflationary Ordinals Protocol: The first deflationary protocol on Ordinals.
+                        </p>
+                        <p className="font-md dark-text lh-32 text-gray-900 rajdhani-600 mb-0">
+                            ☉ DeOP will use revenue from the marketplace to buy back and burn the supply
                         </p>
                     </div>
                     <div className="col-md-4 text-start py-3">
@@ -86,6 +84,10 @@ export default function BannerContent() {
                             Get DEOP token
                         </a>
                     </div>
+                </div>
+                <div className="disclaimer-alert">
+                    ⚠️ This is an extremely dynamic experiment, and we strongly discourage any financial decisions to be
+                    made on the basis of its design.
                 </div>
             </div>
         </div>
